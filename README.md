@@ -10,7 +10,7 @@
  * [x] Establish Website
  * [x] Build in OSRM
  * [ ] Tailor routing function to bicycling
- - * [ ] enable direction instructions to be downloadable 
+ - [ ] enable direction instructions to be downloadable 
   * [ ] .pdf
   * [] .csv
   * [] .gpx
