@@ -1,0 +1,164 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#lower-value{
+	margin: 20;
+}
+
+#upper-value{
+	margin: 20;
+}
+
+#headerImage {
+	max-height: 150px;
+}
+
+#containerDiv {
+	height: 100%;
+}
+
+#overlay {
+	box-shadow: 1px 1px 1px grey;
+	    border-radius: 10px;
+	    margin: 10px;
+	    right: 0;
+	    padding: 20px;
+	    z-index: 999999;
+	    position: absolute;
+	    background: #eeeeeeba;
+			min-height: 400;
+		width: 250px;}
+
+#slider{
+	top: 20px;
+}
+
+#mapid {
+	height: 100%;
+	width: 100%;
+	/* margin: 0 auto; */
+	order: 1;
+}
+
+#headerLogo {
+	background-color: rgba(223, 41, 39, 1); /* #df2927 */
+	color: #fff;
+	padding: 8px 5px 3px 5px;
+}
+
+#headerLogo p, .custom-control-label label {
+	font-size: 16px;
+}
+
+.introText {
+	padding: 15px;
+}
+
+.leaflet-container {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.leaflet-popup-content {
+	line-height: 1;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip, .leaflet-tooltip {
+	background-color: rgba(0, 0, 0, 0.75);
+	/* background-color: rgba(63, 144, 167, 0.85); */
+	color: #fff;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-tooltip {
+	border-radius: 3px;
+}
+
+.leaflet-tooltip {
+	border: 0px;
+	margin: 0;
+	padding-bottom: 0;
+}
+
+#fullScreen {
+	height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+	.sidebar-content {
+		background-color: rgba(255, 255, 255, 0.99);
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#bikeShareLogo {
+		max-height: 15vh;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#instructionsTextId {
+		max-width: 35vw;
+	}
+
+	#bikeShareLogo {
+		max-height: 25vh;
+		margin-top: 15vh;
+	}
+}
+
+#surveyForm textarea {
+	width: 90%;
+}
+
+.streetViewImagery {
+	width: 90%;
+	height: 300px;
+}
+
+/* @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.instructionsDiv {
+		width: 1000px;
+		padding-right: 100px;
+	}
+} */
+
+.legendDiv {
+	/* max-width: 300px; */
+	background-color: rgba(255, 255, 255, 0.85);
+	border: 0px solid rgba(0, 0, 0, 0.25);
+	font-size: 14px;
+}
+
+.sidebar {
+  height: 90%;
+}
+
+.double-height {
+	height: 80px;
+}
+
+#infoTab {
+	height: 80px;
+}
+#clickReminderDiv {
+	margin: 5px 0px 0px 50px;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.introDivContainer {
+	background-color: rgba(255, 255, 255, 0.85);
+	padding: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	overflow-y: auto;
+	font-size: 14px;
+}
+
+.form-check-label{
+	 font-size:15px;
+}
