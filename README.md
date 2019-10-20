@@ -15,9 +15,11 @@ https://bikingman.github.io/bicycling_trip_route_planner/
  * [x] Establish Website
  * [x] Build in Open Source Routing Machine router
  * [ ] Tailor routing function to bicycling
+ - - [ ] forbit freeway entrance 
+ - - [ ] weight bicycle facilities
  * [ ] enable instructions to be downloadable 
- - [ ] .pdf
- - [ ] .csv
- - [ ] .gpx
+ - - [ ] .pdf
+ - - [ ] .csv
+ - - [ ] .gpx
   
   
