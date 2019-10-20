@@ -25,7 +25,7 @@ $('mapid').height(window.innerHeight)
 var map = L.map('mapid', {
 	renderer: L.canvas(),
   center: [39.002434, -77.181233],
-  zoom: 11,
+  zoom: 11	,
   layers: [Stamen_Terrain],
   doubleClickZoom: true,
   boxZoom: false,
@@ -34,15 +34,21 @@ var map = L.map('mapid', {
 });
 
 
+
 L.Routing.control({
         waypoints: [
           L.latLng(39.138392, -77.406748),
           L.latLng(38.8940, -77.036541)
         ],
         routeWhileDragging: true,
+				formatter: new L.Routing.Formatter ({
+					units: 'imperial',
+				}),
     })
     .on('routeselected', function(e) {
         var route = e.route;
         console.log('Showing route between waypoints:\n' + JSON.stringify(route.coordinates, null, 4));
+				var summary = route.summary;
+				console.log('Total distance is ' + summary.totalDistance / 1000 + ' km and total time is ' + Math.round(summary.totalTime % 3600 / 60) + ' minutes');
     })
     .addTo(map);
