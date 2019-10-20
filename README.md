@@ -17,6 +17,7 @@ https://bikingman.github.io/bicycling_trip_route_planner/
  * [ ] Tailor routing function to bicycling
  - - [ ] forbid freeway entrance 
  - - [ ] weight bicycle facilities
+ - - [ ] increase cost of major arterials
  * [ ] enable instructions to be downloadable 
  - - [ ] .pdf
  - - [ ] .csv
