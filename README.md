@@ -14,11 +14,12 @@ https://bikingman.github.io/bicycling_trip_route_planner/
  
  * [x] Establish Website
  * [x] Build in Open Source Routing Machine router
+ * [ ] Display route distance somewhere
  * [ ] Tailor routing function to bicycling
  - - [ ] forbid freeway entrance 
  - - [ ] weight bicycle facilities
  - - [ ] increase cost of major arterials
- * [ ] enable instructions to be downloadable 
+ * [ ] Enable instructions to be downloadable 
  - - [ ] .pdf
  - - [ ] .csv
  - - [ ] .gpx
