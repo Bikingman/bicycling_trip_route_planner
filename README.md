@@ -2,6 +2,10 @@
 
 # Bicycle Trip Routing Tool
 
+Use this tool to route your personal cycling trip! 
+
+
+
 ## Description 
  The intention for this tool is to allow users to route thier personal bicycle trips and download useful files. 
  
@@ -10,9 +14,9 @@
  * [x] Establish Website
  * [x] Build in OSRM
  * [ ] Tailor routing function to bicycling
- - [ ] enable direction instructions to be downloadable 
-  * [ ] .pdf
-  * [] .csv
-  * [] .gpx
+ * [ ] enable instructions to be downloadable 
+ - * [ ] .pdf
+ - * [ ] .csv
+ - * [ ] .gpx
   
   
